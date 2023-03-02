@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form</title>
+        <meta name="description" content="Registration">
+    </head>
+    <body><div>
+        <form action="hello.html" >
+            <fieldset>
+                <legend><h1>Course Registration</h1></legend>
+            <label for="Name">Name:
+                <input type="text" name="Name" id="Name" placeholder="Enter Your Name">
+            </label><br>
+            <label for="Father_Name">Father Name:
+                <input type="text" name="father_name" id="Father_Name" placeholder="Enter Your Father Name">
+            </label><br>
+            <label for="Cnic">CNIC:
+                <input type="number" name="cnic" id="CNIC" placeholder="0000-0000000-0">
+            </label><br>
+            <label for="email">Email
+                <input type="email" name="Email" id="email" placeholder="abc@gmail.com">
+            </label><br>
+            <label for="PassWord">Enter the password:
+                <input type="password" name="password" id="PassWord">
+            </label>
+            <br><label for="contact">Contact
+            <input type="tel" name="Contact" id="contact" placeholder="+92 1234567890"></label>
+            <label for="coursename"><h3>Course Selection</h3>
+                <input type="radio" name="Course" id="coursename">Mern stack web development
+                <input type="radio" name="Course" id="coursename">Front end Web developent
+                <input type="radio" name="Course" id="coursename">Backend Web development
+                <input type="radio" name="Course" id="coursename">Full stack WEb development
+                <input type="radio" name="Course" id="coursename">Jango Web development
+                <input type="radio" name="Course" id="coursename">Jam stack Web development
+                <input type="radio" name="Course" id="coursename">laravel web development
+                <input type="radio" name="Course" id="coursename">Java Web devlopment</label><br>
+                <label for="Qualification">Qualification:
+                    <select name="qualification" id="Qualification">
+                        <option value="#####">choose the option</option>
+                        <option value="Matric">Matric</option>
+                        <option value="Intermediate">Intermediate</option>
+                        <option value="UnderGraduate">UnderGraduate</option>
+                        <option value="Graduate">Graduate</option>
+                        <option value="PostGraduate">PostGraduate</option>
+                    </select>
+                </label><br>
+                <label for="gender">Gender:
+                    <input type="radio" name="Gender" id="gender">Male
+                    <input type="radio" name="Gender" id="gender">Female
+                    <input type="radio" name="Gender" id="gender">Other
+                </label><br>
+                <label for="Birth">Birth:
+                    <input type="date" name="birth" id="Birth">
+                </label><br>
+                <label for="Month">Registered Month:
+                <input type="month" name="month" id="Month">
+                </label><br>
+                <label for="photo">Select Photo:
+                    <input type="file" name="Photo" id="photo" >
+                </label><br>
+                <label for="description"><div>Fill this Description</label>
+                  <textarea name="Describe" id="description" cols="30" rows="10" placeholder="What about doing after completed this course"></textarea></label><br><br><br>
+                  
+            <input type="submit" value="submit" >
+            <input type="reset" value="Reset">
+        </fieldset>
+        </form></div>
+    </body>
+</html>
