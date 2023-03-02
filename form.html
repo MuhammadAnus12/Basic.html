@@ -5,14 +5,14 @@
         <meta name="description" content="Registration">
     </head>
     <body><div>
-        <form action="hello.html" >
+        <form action="hello.html" method="get" >
             <fieldset>
                 <legend><h1>Course Registration</h1></legend>
             <label for="Name">Name:
-                <input type="text" name="Name" id="Name" placeholder="Enter Your Name">
+                <input type="text" name="Name" id="Name" placeholder="Enter Your Name" maxlength="12">
             </label><br>
             <label for="Father_Name">Father Name:
-                <input type="text" name="father_name" id="Father_Name" placeholder="Enter Your Father Name">
+                <input type="text" name="father_name" id="Father_Name" placeholder="Enter Your Father Name" maxlength="12">
             </label><br>
             <label for="Cnic">CNIC:
                 <input type="number" name="cnic" id="CNIC" placeholder="0000-0000000-0">
@@ -26,7 +26,7 @@
             <br><label for="contact">Contact
             <input type="tel" name="Contact" id="contact" placeholder="+92 1234567890"></label>
             <label for="coursename"><h3>Course Selection</h3>
-                <input type="radio" name="Course" id="coursename">Mern stack web development
+                <input type="radio" name="Course" id="coursename" checked="checked">Mern stack web development
                 <input type="radio" name="Course" id="coursename">Front end Web developent
                 <input type="radio" name="Course" id="coursename">Backend Web development
                 <input type="radio" name="Course" id="coursename">Full stack WEb development
